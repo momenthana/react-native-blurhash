@@ -1,5 +1,9 @@
-<a href="https://margelo.io">
-  <img src="./img/banner.svg" width="100%" />
+<a href="https://margelo.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./img/banner-dark.webp" />
+    <source media="(prefers-color-scheme: light)" srcset="./img/banner-light.webp" />
+    <img alt="react-native-vision-camera" src="./img/banner-light.webp" />
+  </picture>
 </a>
 
 <a href="https://github.com/sponsors/mrousavy">
